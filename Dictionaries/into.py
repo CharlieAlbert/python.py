@@ -6,7 +6,7 @@
 student = {'name': 'Charles', 'age': 25, 'courses': ['Maths', 'CompSci']}
 
 
-print(student.get('age', ))
+print(student.get('age'))
 print(student.get('phone', 'Not Found'))
 
 # adding values in a dictionary
