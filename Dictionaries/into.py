@@ -12,7 +12,7 @@ print(student.get('phone', 'Not Found'))
 # adding values in a dictionary
 
 student['phone'] = '254-321'
-print(student.get('phone'))
+print(student.get('phone', 'Not Found'))
 
 # updating values using the update method
 
